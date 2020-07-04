@@ -14,3 +14,19 @@ If you have created some themes and don't want to create a repository of your ow
 * [Best Colour Themes for Text Editors](https://www.slant.co/topics/358/~best-color-themes-for-text-editors)
 * [Eclipse Colour Themes](http://www.eclipsecolorthemes.org/)
 * Add your own.
+
+## How to import these themes
+
+Ghostwriter does not have any way to import the theme files from the UI of Ghostwriter. 
+
+All custom theme files should reside in `~/.config/ghostwriter/themes` within a directory if its own.
+
+The fastest way to get these themes imported is as follows:
+
+```
+mkdir -p ~/.config/ghostwriter/themes
+cd ~/.config/ghostwriter/themes
+git clone https://github.com/fazlearefin/ghostwriter-themes.git ./
+```
+
+After this restart ghostwriter and you should be able to use these custom themes.
